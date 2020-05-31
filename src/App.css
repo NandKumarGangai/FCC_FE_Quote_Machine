@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+  background: "#DCDCDC";
+}
+
+#quote-box {
+  background: red;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#text {
+  text-align: center;
+}
+
+#author {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 0.5px solid black;
+}
+
+#new-quote {
+  padding: 8px;
+  background: slateblue;
+  border: none;
+  border-radius: 5px;
+}
